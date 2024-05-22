@@ -270,7 +270,7 @@ function mainDL() {
       // creates <a download="name" href="file"> and clicks it
       const a = createAnchor();
       a.download = "Resume";
-      a.href = "https://github.com/NasuhDincer/Personal-Website/blob/main/Nasuh%20Dincer%20%20Resume.pdf";
+      a.href = "https://github.com/NasuhDincer/Personal-Website/blob/main/Nasuh%20Dincer%20Resume.pdf";
       a.type = `${mime}; charset=${charset}`;
       // for insurance that it won't swap page?
       a.target = "_self";
